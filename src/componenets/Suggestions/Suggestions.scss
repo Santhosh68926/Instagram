@@ -1,0 +1,87 @@
+@import "../../styles/variables";
+
+.SuggestionsPage {
+  width: 240px;
+  position: fixed;
+  right: 4rem;
+  top: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .ProfilePreview {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .ProfilePic {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .Username {
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .Switch {
+      margin-left: auto;
+      color: $blue;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+
+  .SuggestionsHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: $text;
+  }
+
+  .SuggestionsList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .SuggestionItem {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .ProfilePic {
+        width: 32px;
+        height: 32px;
+      }
+
+      .Username {
+        font-weight: 600;
+        font-size: 13px;
+      }
+
+      .FollowButton {
+        margin-left: auto;
+        padding: 4px 10px;
+        font-size: 12px;
+        font-weight: 600;
+        border: none;
+        background-color: $blue;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+
+  /* 📱 Mobile view */
+  @media (max-width: $mobile) {
+    display: none; // hide suggestions on mobile
+  }
+}

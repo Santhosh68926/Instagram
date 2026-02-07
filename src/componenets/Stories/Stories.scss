@@ -1,0 +1,58 @@
+@import "../../styles/variables";
+
+.Stories {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 12px 0;
+
+  /* Scrollbar hide for desktop */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .StoryItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+
+    .StoryDP {
+      width: 60px;
+      height: 60px;
+      border: 2px solid $blue;
+      border-radius: 50%;
+      object-fit: cover;
+      padding: 2px;
+    }
+
+    span {
+      margin-top: 4px;
+      font-size: 12px;
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+
+  /* 📱 Mobile view */
+  @media (max-width: $mobile) {
+    gap: 8px;
+
+    .StoryItem {
+      width: 50px;
+
+      .StoryDP {
+        width: 50px;
+        height: 50px;
+      }
+
+      span {
+        font-size: 10px;
+      }
+    }
+  }
+  @media (max-width: $mobile) {
+    margin-top: 40px; 
+    margin-left: 5px;
+  }
+}

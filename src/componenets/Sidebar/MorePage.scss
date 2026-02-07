@@ -1,0 +1,54 @@
+.MorePage {
+  padding: 16px;
+  background: #fff;
+  background-color: rgb(240, 236, 236);
+  color: #000;
+  min-height: 85vh;
+  border-radius: 1rem;
+}
+
+.MorePage h2 {
+  font-size: 20px;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+/* item */
+.MoreItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 4px;
+  border-bottom: 1px solid rgba(82, 76, 76, 0.08);
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  &:active {
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  i {
+    font-size: 18px;
+  }
+}
+
+/* left content */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  span {
+    font-size: 15px;
+  }
+}
+
+/* logout */
+.logout {
+  color: #ff4d67;
+  font-weight: 600;
+}

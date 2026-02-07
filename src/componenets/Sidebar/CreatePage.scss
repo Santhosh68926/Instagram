@@ -1,0 +1,100 @@
+@import "../../styles/variables";
+
+.CreatePage {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  h2 {
+    font-size: 22px;
+  }
+}
+
+/* Upload box */
+.UploadBox {
+  height: 260px;
+  border: 1px dashed $border;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+
+  i {
+    font-size: 36px;
+  }
+
+  p {
+    font-weight: 600;
+  }
+
+  span {
+    font-size: 14px;
+    color: $textLight;
+  }
+
+  img,
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Caption */
+textarea {
+  min-height: 90px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid $border;
+  resize: none;
+  font-size: 14px;
+
+  &:focus {
+    outline: none;
+    border-color: $blue;
+  }
+}
+
+/* Buttons */
+.CreateActions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.CancelBtn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid $border;
+  background: transparent;
+  cursor: pointer;
+}
+
+.ShareBtn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: $blue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: $mobile) {
+  .CreatePage {
+    padding: 14px;
+  }
+
+  .UploadBox {
+    height: 220px;
+  }
+}

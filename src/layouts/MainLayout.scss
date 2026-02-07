@@ -1,0 +1,64 @@
+@import "../styles/variables";
+
+
+.MainLayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+  background: $bg;
+
+  .MainSidebar {
+    // flex: 1;
+    flex: 0 0 240px; // sidebar width
+  }
+
+  .MainCenter {
+    flex: 1;
+    display: flex;
+    justify-content: center; // center horizontally
+    // padding: 20px;
+  }
+
+  .MainSuggestions {
+    flex: 0 0 240px; // suggestions width
+  }
+
+  // Center content max-width
+  .MainCenter > * {
+    max-width: 500px; // feed or other pages
+    width: 100%;
+  }
+}
+
+@media (max-width: 1075px) {
+  .Maincenter {
+    padding-left: 3rem;
+  }
+
+/* ===== Mobile ===== */
+@media (max-width: $mobile) {
+  .MainLayout {
+    flex-direction: column;
+  }
+
+  .MainSidebar {
+    display: none;   // 🔥 important
+  }
+
+  .MainSuggestions {
+    display: none;   // 🔥 important
+  }
+
+  .MainCenter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MainCenter > * {
+    max-width: 100%;
+  }
+}
+}

@@ -1,0 +1,439 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "Santhosh_kumar__17_",
+        "profile_pic": "/assets/it's me.jpg"
+      },
+      "image": "/assets/it's me.jpg",
+      "caption": "Just me, being real ✨",
+      "likes": 214,
+      "comments": [
+        {
+          "user": "vicky__09_",
+          "comment": "Mass look da 🔥"
+        },
+        {
+          "user": "tamil__18_",
+          "comment": "Bro confidence level 💯"
+        }
+      ],
+      "timestamp": "2025-06-10T09:24:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "Tamilmaran__18_",
+        "profile_pic": "/assets/sunshine nature.jpg"
+      },
+      "image": "/assets/naa-tamil pic.jpg",
+      "caption": "Enjoying the sunshine! ☀️ #beachvibes",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "jane_tamil",
+          "comment": "Looks awesome! 😍"
+        },
+        {
+          "user": "travel_maran",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-06-10T09:24:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "Vignesh__09_",
+        "profile_pic": "/assets/Vicky- pic.jpg"
+      },
+      "image": "/assets/Vicky- pic.jpg",
+      "caption": "Stylish look..! ☀️ #beachvibes",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "jane_pakki",
+          "comment": "Looks awesome! 😍"
+        },
+        {
+          "user": "travel_vicky",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-06-10T09:24:00Z"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "Sathish__13_",
+        "profile_pic": "/assets/nature  pic-1.jpg"
+      },
+      "image": "/assets/clg-friends.jpeg",
+      "caption": "College days = best memories forever 🎓❤️",
+      "likes": 342,
+      "comments": [
+        {
+          "user": "classy_csk",
+          "comment": "Semma days da machi 😍"
+        },
+        {
+          "user": "aravind__14_",
+          "comment": "Miss those moments bro 🥺"
+        }
+      ],
+      "timestamp": "2025-06-10T09:24:00Z"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "CSK__17_",
+        "profile_pic": "/assets/self.image.jpg"
+      },
+      "image": "/assets/Ms dhoni img-2.jpg",
+      "caption": "Thala for a reason 💛🔥 #MSD",
+      "likes": 780,
+      "comments": [
+        {
+          "user": "csk_fan",
+          "comment": "Thala supremacy 🏏"
+        },
+        {
+          "user": "yellow_army",
+          "comment": "Legend forever 💛"
+        }
+      ],
+      "timestamp": "2025-06-10T09:24:00Z"
+    },
+    {
+      "id": "6",
+      "user": {
+        "id": 106,
+        "username": "dhoni__7_",
+        "profile_pic": "/assets/nature pic-3.jpg"
+      },
+      "image": "/assets/Ms dhoni img-1.jpg",
+      "caption": "Best ICC captain 💛🔥 #MSD",
+      "likes": 1880,
+      "comments": [
+        {
+          "user": "csk_fan",
+          "comment": "Thala supremacy 🏏"
+        },
+        {
+          "user": "yellow_army",
+          "comment": "Legend forever 💛"
+        }
+      ],
+      "timestamp": "2025-06-10T09:24:00Z"
+    },
+    {
+      "id": "7",
+      "user": {
+        "id": 107,
+        "username": "MSD__07_",
+        "profile_pic": "/assets/Ms dhoni img-1.jpg"
+      },
+      "image": "/assets/off-friends.jpeg",
+      "caption": "Work place turned into second home 🤝",
+      "likes": 189,
+      "comments": [
+        {
+          "user": "office_vibes",
+          "comment": "Team goals 🔥"
+        },
+        {
+          "user": "dev_guru",
+          "comment": "Productive gang 💻"
+        }
+      ],
+      "timestamp": "2025-06-10T09:24:00Z"
+    },
+    {
+      "id": "8",
+      "user": {
+        "id": 108,
+        "username": "nairobi__27_",
+        "profile_pic": "/assets/images..jpg"
+      },
+      "image": "/assets/TajMahal.jpg",
+      "caption": "Witnessed timeless beauty 🕌✨ #TajMahal",
+      "likes": 401,
+      "comments": [
+        {
+          "user": "travel_addict",
+          "comment": "Dream place ❤️"
+        },
+        {
+          "user": "wanderer",
+          "comment": "Perfect capture 📸"
+        }
+      ],
+      "timestamp": "2025-06-10T09:24:00Z"
+    },
+    {
+      "id": "9",
+      "user": {
+        "id": 109,
+        "username": "crazy-koo__27_",
+        "profile_pic": "/assets/Ms dhoni img-1.jpg"
+      },
+      "image": "/assets/flower-6.jpeg",
+      "caption": "Nature never goes out of style 🌿",
+      "likes": 256,
+      "comments": [
+        {
+          "user": "green_world",
+          "comment": "Peaceful view 😌"
+        },
+        {
+          "user": "naturelover",
+          "comment": "Fresh vibes 💚"
+        }
+      ],
+      "timestamp": "2025-06-10T09:24:00Z"
+    },
+    {
+      "id": "10",
+      "user": {
+        "id": 110,
+        "username": "Hinta__02_",
+        "profile_pic": "/assets/images..jpg"
+      },
+      "image": "/assets/nature pic-2.jpg",
+      "caption": "Enjoying the sunshine! ☀️ #beachvibes",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "jane_sathish",
+          "comment": "Looks awesome! 😍"
+        },
+        {
+          "user": "travel_sathish",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-06-10T09:24:00Z"
+    },
+    {
+      "id": "11",
+      "user": {
+        "id": 111,
+        "username": "Berlin__25_",
+        "profile_pic": "/assets/Ms dhoni img-1.jpg"
+      },
+      "image": "/assets/naan.jpeg",
+      "caption": "Just me, being real ✨",
+      "likes": 214,
+      "comments": [
+        {
+          "user": "vicky__09_",
+          "comment": "Mass look da 🔥"
+        },
+        {
+          "user": "tamil__18_",
+          "comment": "Bro confidence level 💯"
+        }
+      ],
+      "timestamp": "2025-06-10T09:24:00Z"
+    },
+    {
+      "id": "12",
+      "user": {
+        "id": 112,
+        "username": "Toyata__14_",
+        "profile_pic": "/assets/images..jpg"
+      },
+      "image": "/assets/csk-image.jpg",
+      "caption": "Thala squads CSK 💛",
+      "likes": 256,
+      "comments": [
+        {
+          "user": "dhoni-rasigan",
+          "comment": "2026 la nammatha.."
+        },
+        {
+          "user": "CSK_team",
+          "comment": "Thala 6th cup loading...💛"
+        }
+      ],
+      "timestamp": "2025-06-10T09:24:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "Santhosh_kumar__17_",
+    "profile_pic": "/assets/it's me.jpg"
+  },
+  "suggestion": [
+    {
+      "id": "101",
+      "username": "Santhosh_kumar__17_",
+      "profile_pic": "/assets/it's me.jpg"
+    },
+    {
+      "id": "102",
+      "username": "Tamilmaran__18_",
+      "profile_pic": "/assets/it's me.jpg"
+    },
+    {
+      "id": "103",
+      "username": "Vignesh__09_",
+      "profile_pic": "/assets/it's me.jpg"
+    },
+    {
+      "id": "104",
+      "username": "Sathish__13_",
+      "profile_pic": "/assets/it's me.jpg"
+    },
+    {
+      "id": "105",
+      "username": "Tamil__18_",
+      "profile_pic": "/assets/it's me.jpg"
+    },
+    {
+      "id": "106",
+      "username": "Santhosh__17_",
+      "profile_pic": "/assets/it's me.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "_Santhosh_17_",
+        "profile_pic": "/assets/it's me.jpg"
+      },
+      "image": "/assets/dhoni img-1.jpg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "Tamil__18_",
+        "profile_pic": "/assets/images..jpg"
+      },
+      "image": "/assets/dhoni img-2.jpg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "Vignesh__09_",
+        "profile_pic": "/assets/self.image.jpg"
+      },
+      "image": "/assets/dhoni img-3.jpg"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "sathish__13_",
+        "profile_pic": "/assets/nature pic-3.jpg"
+      },
+      "image": "/assets/dhoni img-1.jpg"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "Aravind__14_",
+        "profile_pic": "/assets/sunshine nature.jpg"
+      },
+      "image": "/assets/dhoni img-2.jpg"
+    },
+    {
+      "id": "6",
+      "user": {
+        "id": 106,
+        "username": "Vicky__09_",
+        "profile_pic": "/assets/nature pic-2.jpg"
+      },
+      "image": "/assets/dhoni img-3.jpg"
+    },
+    {
+      "id": "7",
+      "user": {
+        "id": 107,
+        "username": "thala__07_",
+        "profile_pic": "/assets/Ms dhoni img-1.jpg"
+      },
+      "image": "/assets/dhoni img-2.jpg"
+    },
+    {
+      "id": "8",
+      "user": {
+        "id": 108,
+        "username": "Maran__07_",
+        "profile_pic": "/assets/Ms dhoni img-2.jpg"
+      },
+      "image": "/assets/dhoni img-3.jpg"
+    },
+    {
+      "id": "9",
+      "user": {
+        "id": 109,
+        "username": "nairobi__07_",
+        "profile_pic": "/assets/nature  pic-1.jpg"
+      },
+      "image": "/assets/dhoni img-2.jpg"
+    },
+    {
+      "id": "10",
+      "user": {
+        "id": 110,
+        "username": "defi.not__7_",
+        "profile_pic": "/assets/Ms dhoni img-3.jpg"
+      },
+      "image": "/assets/dhoni img-3.jpg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "103",
+      "username": "Vignesh__09_",
+      "profile_pic": "/assets/self.image.jpg"
+    },
+    {
+      "id": "102",
+      "username": "Tamilmaran__18_",
+      "profile_pic": "/assets/images..jpg"
+    },
+    {
+      "id": "101",
+      "username": "Santhosh_kumar__17_",
+      "profile_pic": "/assets/it's me.jpg"
+    },
+    {
+      "id": "Tamilmaran__18_",
+      "username": "/assets/it's me.jpg",
+      "profile_pic": 102
+    },
+    {
+      "id": "105",
+      "username": "Tamil__18_"
+    },
+    {
+      "id": "102",
+      "username": "Tamilmaran__18_"
+    },
+    {
+      "id": "101",
+      "username": "Santhosh_kumar__17_"
+    },
+    {
+      "id": "106",
+      "username": "Santhosh__17_"
+    },
+    {
+      "id": "101",
+      "username": "Santhosh_kumar__17_"
+    }
+  ]
+}

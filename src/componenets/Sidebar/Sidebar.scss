@@ -1,0 +1,105 @@
+@import "../../styles/variables";
+
+/* =======================
+   DESKTOP SIDEBAR
+======================= */
+.Sidebar {
+  width: 240px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1200;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 20px 12px;
+  background-color: $bg;
+  border-right: 1px solid $border;
+  transition: transform 0.3s ease;
+
+    .InstaTitle {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    background-color: rgb(247, 244, 244);
+    padding: 5px 10px;
+    border-radius: 1rem;
+    text-align: center;
+
+    i {
+      font-size: 24px;
+    }
+  }
+}
+
+/* MENU */
+.SidebarMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+}
+
+/* ITEM */
+.SidebarItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  i {
+    font-size: 18px;
+  }
+
+  span {
+    font-size: 16px;
+  }
+
+  &:hover {
+    background-color: $hover;
+  }
+}
+
+/* BOTTOM */
+.SidebarBottom {
+  padding-bottom: 10px;
+}
+
+/* =======================
+   MOBILE TOP HEADER
+======================= */
+.MobileTopBar {
+  display: none;
+}
+
+/* =======================
+   📱 MOBILE VIEW
+======================= */
+@media (max-width: 768px) {
+
+  .Sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    position: fixed;
+    top: 36px;
+    left: 0;
+    width: 220px;
+    height: calc(100vh - 56px);
+    background: #fff;
+    transform: translateX(-100%);
+    transition: 0.3s;
+    z-index: 1500;
+  }
+
+  .Sidebar.open {
+    transform: translateX(0);
+  }
+}

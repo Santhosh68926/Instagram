@@ -1,0 +1,123 @@
+@import "../../styles/variables";
+
+.PostsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  .PostCard {
+    background: $bg;
+    // border: 1px solid $border;
+    border-radius: 8px;
+    overflow: hidden;
+
+    .PostHeader {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px;
+
+      .ProfilePic {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .Username {
+        font-size: 0.89rem;
+        font-weight: 600;
+      }
+    }
+
+    .PostImage {
+      width: 100%;
+      border-radius: 0.5rem;
+      border: 0.8px solid rgb(236, 235, 235);
+      object-fit: cover;
+    }
+
+    .PostActions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 8px 12px;
+
+      // i {
+      //   font-size: 20px;
+      //   cursor: pointer;
+
+        .liked {
+          color: red;
+        }
+      
+    }
+
+    .PostInfo {
+      padding: 0 12px 12px 12px;
+
+      .Likes {
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: 4px;
+      }
+
+      .Caption {
+        font-size: 14px;
+        color: $text;
+      }
+    }
+
+    .CommentsSection {
+  padding: 8px 12px 14px;
+  border-top: 1px solid $border;
+
+  .Comment {
+    display: flex;
+    gap: 6px;
+    font-size: 13px;
+    margin-bottom: 6px;
+
+    .CommentUser {
+      font-weight: 600;
+    }
+
+    .CommentText {
+      color: $text;
+    }
+  }
+}
+  }
+
+  /* 📱 Mobile view */
+  @media (max-width: $mobile) {
+    gap: 16px;
+
+    .PostCard {
+      .PostHeader {
+        .ProfilePic {
+          width: 32px;
+          height: 32px;
+        }
+
+        .Username {
+          font-size: 12px;
+        }
+      }
+
+      .PostActions {
+        i {
+          font-size: 18px;
+        }
+      }
+
+      .PostInfo {
+
+        .Likes,
+        .Caption {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

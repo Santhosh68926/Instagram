@@ -1,0 +1,32 @@
+@import "../../styles/variables";
+
+.ViewStoryPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: #000;
+
+  .StoryContainer {
+    width: 100%;
+    max-width: 500px;
+
+    .StoryImage {
+      width: 100%;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+  }
+
+  /* 📱 Mobile view */
+  @media (max-width: $mobile) {
+    padding: 12px;
+
+    .StoryContainer {
+      .StoryImage {
+        border-radius: 8px;
+      }
+    }
+  }
+}

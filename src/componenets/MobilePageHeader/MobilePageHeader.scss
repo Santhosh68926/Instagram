@@ -1,0 +1,30 @@
+@import "../../styles/variables";
+
+.MobilePageHeader {
+  display: none;
+  margin-top: 2.3rem;
+  padding-left: 10px;
+  padding-top: 2px;
+
+  @media (max-width: $mobile) {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    height: 56px;
+    // padding: 0 14px;
+    // border-bottom: 1px solid $border;
+    background: $bg;
+
+
+    i {
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    span {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}

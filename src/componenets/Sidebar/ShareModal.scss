@@ -1,0 +1,54 @@
+.ShareOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 999;
+
+    .ShareModal {
+        width: 100%;
+        max-width: 420px;
+        background: #b1abab;
+        padding: 10px;
+        border-radius: 18px 18px 0 0;
+        color: black;
+
+
+        h4 {
+            margin-bottom: 14px;
+            text-align: center;
+        }
+
+
+        .ShareOptions {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+
+
+            .ShareIcon {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                cursor: pointer;
+                transition: 0.2s ease;
+
+                i {
+                    font-size: 26px;
+                    margin-bottom: 6px;
+                }
+
+                span {
+                    font-size: 12px;
+                }
+
+                &:hover {
+                    transform: translateY(-4px) scale(1.05);
+                    color: #25171b;
+                }
+            }
+        }
+    }
+}

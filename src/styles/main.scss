@@ -1,0 +1,32 @@
+@import "./variables";
+@import "./mixins";
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: $bg;
+  color: $text;
+  overflow-x: hidden;
+}
+
+.AppLayout {
+  display: flex;
+  min-height: 100vh;
+
+  .MainContent {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    overflow-y: auto; // Feed scroll
+
+    @media (max-width: $mobile) {
+      padding: 0;
+    }
+  }
+
+  // Sidebar + Suggestions fixed
+  @media (max-width: $mobile) {
+    flex-direction: column;
+  }
+}
