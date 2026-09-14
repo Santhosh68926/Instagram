@@ -53,6 +53,28 @@ function StoryViewer({ stories, currentIndex, onClose, setIndex }) {
     }
   };
 
+  useEffect(() => {
+  const video = videoRef.current;
+
+  if (!video) return;
+
+  video.load();
+
+  const playVideo = async () => {
+    try {
+      await video.play();
+    } catch (error) {
+      console.log("Video autoplay blocked:", error);
+    }
+  };
+
+  video.addEventListener("canplay", playVideo);
+
+  return () => {
+    video.removeEventListener("canplay", playVideo);
+  };
+}, [currentIndex]);
+
   return (
     <div className="StoryViewer">
 
